@@ -25,7 +25,7 @@ SECRET_KEY = '(my(98ksd(=kz)_jp(^y8vh%@%((o*m9825t3b56^gpolzx&)#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://dkarkhana.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -118,6 +118,8 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
+
+
 LOGIN_REDIRECT_URL = 'welcome'
 LOGIN_URL = 'login'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
